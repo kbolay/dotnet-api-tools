@@ -8,7 +8,7 @@ Provides tools to use [FromCookie] in the same way as [FromHeader] can be used t
 Run the examples/FromCookie.Api project and use the examples/FromCookie.Api/FromCookie.Api.http file to run a request. Change the Cookie my-cookie value to get a different response.
 
 
-# TrackingCookie
+# src/TrackingCookie
 Uses FromCookie and adds Middleware to create a tracking cookie if one doesn't exist, using Set-Cookie. 
 The domain of the cookie will be set to a subdomain of the referer domain.
 The name of the cookie, the subdomain, and expiration of the cookie are currently configurable, more configuration could be added.
