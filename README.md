@@ -18,3 +18,6 @@ Run the examples/TrackingCookie.Api project and hit the /v1/test endpoint. View 
 
 # Testing
 maybe soon
+
+# Packaging
+Need to build up Github Actions to push to Nuget after testing.
