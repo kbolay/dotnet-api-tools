@@ -1,0 +1,7 @@
+@FromCookie.Api_HostAddress = https://localhost:7263
+
+GET {{FromCookie.Api_HostAddress}}/v1/test
+Accept: application/json
+Cookie: my-cookie=doesitwork?;
+
+###

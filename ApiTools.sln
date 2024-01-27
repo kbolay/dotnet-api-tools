@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8AD29DEF-6D6B-424F-82C4-26629AC0D475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FromCookie", "src\FromCookie\FromCookie.csproj", "{A68F62E7-62C4-44A9-8D52-535C9F141E32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{C6B852F2-A4A9-4631-B6F6-97D4379B6740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FromCookie.Api", "examples\FromCookie.Api\FromCookie.Api.csproj", "{59EAF408-E37D-4BC8-BB3E-C59083F72C45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackingCookie", "src\TrackingCookie\TrackingCookie.csproj", "{063C7A08-262E-40C9-8E5B-7DB71B82C5B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackingCookie.Api", "examples\TrackingCookie.Api\TrackingCookie.Api.csproj", "{BC33E390-E49C-4246-BF4A-1AFF13A81D58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A68F62E7-62C4-44A9-8D52-535C9F141E32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68F62E7-62C4-44A9-8D52-535C9F141E32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68F62E7-62C4-44A9-8D52-535C9F141E32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68F62E7-62C4-44A9-8D52-535C9F141E32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59EAF408-E37D-4BC8-BB3E-C59083F72C45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59EAF408-E37D-4BC8-BB3E-C59083F72C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59EAF408-E37D-4BC8-BB3E-C59083F72C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59EAF408-E37D-4BC8-BB3E-C59083F72C45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{063C7A08-262E-40C9-8E5B-7DB71B82C5B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063C7A08-262E-40C9-8E5B-7DB71B82C5B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063C7A08-262E-40C9-8E5B-7DB71B82C5B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063C7A08-262E-40C9-8E5B-7DB71B82C5B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC33E390-E49C-4246-BF4A-1AFF13A81D58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC33E390-E49C-4246-BF4A-1AFF13A81D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC33E390-E49C-4246-BF4A-1AFF13A81D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC33E390-E49C-4246-BF4A-1AFF13A81D58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A68F62E7-62C4-44A9-8D52-535C9F141E32} = {8AD29DEF-6D6B-424F-82C4-26629AC0D475}
+		{59EAF408-E37D-4BC8-BB3E-C59083F72C45} = {C6B852F2-A4A9-4631-B6F6-97D4379B6740}
+		{063C7A08-262E-40C9-8E5B-7DB71B82C5B1} = {8AD29DEF-6D6B-424F-82C4-26629AC0D475}
+		{BC33E390-E49C-4246-BF4A-1AFF13A81D58} = {C6B852F2-A4A9-4631-B6F6-97D4379B6740}
+	EndGlobalSection
+EndGlobal
