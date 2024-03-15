@@ -15,7 +15,7 @@ test: build
 	dotnet test
 
 test-coverage:
-	dotnet test --color:"XPlat Code Coverage" --results-directory "tests\coverage"
+	dotnet test --collect:"XPlat Code Coverage" --results-directory "tests\coverage"
 	reportgenerator -reports:"tests\coverage\*\coverage.cobertura.xml" -targetdir:"tests\report" -reporttypes:Html
 	open tests\report\index.html
 
